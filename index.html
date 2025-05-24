@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Packages</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+      transition: 0.3s ease;
+      border-top: 5px solid #2e86de;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .title {
+      font-size: 22px;
+      color: #2e86de;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 26px;
+      color: #1e272e;
+      margin-bottom: 15px;
+    }
+
+    .features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 15px 0;
+    }
+
+    .features li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #888;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #2e86de;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">Website Development Packages</h1>
+  <div class="container">
+    
+    <!-- Basic HTML Package -->
+    <div class="card">
+      <div class="title">BASIC HTML PACKAGE</div>
+      <div class="price">$160</div>
+      <ul class="features">
+        <li>Mobile Responsive Static Website</li>
+        <li>4–5 Pages (Home, About, Services, Contact)</li>
+        <li>Appointment Form (Email Based)</li>
+        <li>Google Map Integration</li>
+        <li>Basic SEO Optimization</li>
+        <li>Free SSL + Hosting & Domain Setup</li>
+      </ul>
+      <div class="note">No Admin Panel, Client can't edit content.</div>
+    </div>
+
+    <!-- Standard WordPress Package -->
+    <div class="card">
+      <div class="title">STANDARD WORDPRESS PACKAGE</div>
+      <div class="price">$180</div>
+      <ul class="features">
+        <li>Dynamic Website with Admin Panel</li>
+        <li>5–6 Pages (incl. Appointment)</li>
+        <li>Easy Content Management</li>
+        <li>Google Map & Contact Form</li>
+        <li>Free Theme & Plugin Setup</li>
+        <li>Basic On-page SEO</li>
+      </ul>
+      <div class="note">Client can manage website easily.</div>
+    </div>
+
+    <!-- Premium WordPress Package -->
+    <div class="card">
+      <div class="title">PREMIUM WORDPRESS PACKAGE</div>
+      <div class="price">$250</div>
+      <ul class="features">
+        <li>All Standard Features +</li>
+        <li>Premium Theme Included</li>
+        <li>Doctor Profile, Blog, Gallery</li>
+        <li>Multilingual (Bangla + English)</li>
+        <li>WhatsApp Chat & Optimization</li>
+        <li>1 Month Free Maintenance</li>
+      </ul>
+      <div class="note">Perfect for professional clinics.</div>
+    </div>
+
+  </div>
+</body>
+</html>
